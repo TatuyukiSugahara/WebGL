@@ -35,7 +35,7 @@ def main():
     num = 0
 
     for i in range(0, CMD_NUM):
-        cmd_list.append('python C:/Users/tatuy/Desktop/create.py %d' % (i))
+        cmd_list.append('python create.py %d' % (i))
 
     while num < CMD_NUM:
         list = []
